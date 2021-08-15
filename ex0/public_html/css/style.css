@@ -1,0 +1,25 @@
+html,
+body {
+	height: 100%;
+	font-family: "Libre Franklin", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+  margin: 0;
+}
+
+.top {
+  height: 100%;
+  background: linear-gradient(#262626, #1e1e1e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top h2 {
+  color: white;
+  letter-spacing: 35px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.space {
+  justify-content: space-between;
+}
